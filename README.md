@@ -12,7 +12,7 @@ def dfs(graph, start, end, path=[]):
                 return new_path
     return None
     
-    dfs je rekurzivní funkce, která prochází graf a hledá cestu z vrcholu start do vrcholu end.
+dfs je rekurzivní funkce, která prochází graf a hledá cestu z vrcholu start do vrcholu end.
 Parametr graph je seznam hran, kde každá hrana je reprezentována jako dvojice (u, v) označující hranu z vrcholu u do vrcholu v.
 Parametr start je počáteční vrchol, ze kterého začínáme hledat cestu.
 Parametr end je cílový vrchol, ke kterému hledáme cestu.
